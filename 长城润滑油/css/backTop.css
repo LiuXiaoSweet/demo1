@@ -1,0 +1,11 @@
+.backgTop{
+	display: block;
+    background: url(../images/result-top-btn.png) no-repeat;
+    width: 70px;
+    height: 65px;
+    position: fixed;
+    right: 50px;
+    bottom: 180px;
+    cursor: pointer;
+    z-index: 15;
+}

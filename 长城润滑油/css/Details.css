@@ -1,0 +1,182 @@
+body{
+	font-family: "微软雅黑";
+}
+.main{
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 1200px;
+	overflow: hidden;
+	z-index: 1;
+}
+.small_ul{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	padding-left: 15px;
+	width: 100%;
+	height: 21px;
+}
+.small_ul li{
+	float: left;
+	margin-right: 8px;
+}
+.small_ul a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+}
+.new_content{
+    margin-top: 35px;
+    padding: 0 120px;
+}
+.new_content h3{
+    border-bottom: dashed 1px #949393;
+    color: #005FAF;
+    font-size: 22px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.new_content p{
+    text-align: left;
+    font-size: 13px;
+    font-family: "宋体";
+    line-height: 170%;
+    color: #6C6C6C;
+    margin-top: 25px;
+    text-indent: 2em;
+}
+.new_content .ts{
+    margin-top: 35px;
+    text-align: center !important;
+}
+.new_content p:last-child{
+    text-indent: 0em;
+}
+.new_content p:last-child span:first-child{
+    float: left;
+}
+.new_content p:last-child span:last-child{
+    float: right;
+}
+/* ??? */
+.detailsCon_Top {  
+    width: 1050px;
+}
+ /*fangdaJing  */
+.detailsCon_L{ 
+    width: 453px;
+    margin-left: 15px;
+}
+
+.detailsCon_R{  /* ???? */
+    width: 558px;
+    overflow: hidden;
+}
+.priceJ {
+    font-size: 36px;
+    color: #FFF;
+    background-color: #0056A9;
+    width: 510px;
+    height: 115px;
+    line-height: 115px;
+}
+.tb-thumb li{
+    float: left;
+    margin-right: 13px;
+    border: solid 1px #C1B9B9;
+    padding: 1px 6px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.tb-thumb li:hover{
+    border: solid 2px red;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.tb-thumb li b {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: url(../images/tb-selected-b.gif) no-repeat;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.cartNumber {
+    width: 92px;
+    height: 32px;
+}
+.put_shopSL{
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    border: #C1B9B9 solid 1px;
+}
+.z_put{
+    width: 25px;
+    height: 15px;
+    background: url(../images/cartNumberinp.jpg) no-repeat right bottom;
+    right: 0;
+    bottom: 0;
+}
+.j_put{
+    width: 25px;
+    height: 15px;
+    background: url(../images/cartNumberinp.jpg) no-repeat right top;
+    right: 0;
+    top: 0;
+}
+.cartGwc {
+    width: 183px;
+    height: 51px;
+    background: url(../images/shopGmcar.png) no-repeat;
+}
+.cartLjDh {
+    width: 183px;
+    height: 51px;
+    background: url(../images/shopGmcar.png) no-repeat right top;
+}
+/* ???? left */
+.hot_cpdhL{
+    width: 250px;
+}
+.cpdhL_title{
+    height: 38px;
+    line-height: 38px;
+    background-color: #005BAA;
+}
+.cpdh li{
+    margin-bottom: 15px;
+}
+.cpdh li img{
+    border: #E1E1E1 solid 1px;
+}
+/* ???? right */
+.hot_xqR{
+    width: 925px;
+    overflow: hidden;
+}
+.hot_xqR_title{
+    height: 37px;
+    background: url(../img/detailsXq/goodsThe.jpg) repeat-x bottom;
+}
+.hot_xqR_title li {
+    float: left;
+    width: 110px;
+    background-color: #93BCE0;
+    margin-right: 2px;
+    height: 33px;
+    line-height: 33px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.hot_xqR_title li.xxCurrent {
+    background-color: #005BAA;
+}
+.cpdh li a{
+	color: #333333;
+}

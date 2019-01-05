@@ -1,0 +1,78 @@
+.jqzoom {
+	float: left;
+	border: none;
+	position: relative;
+	padding: 0px;
+	cursor: pointer;
+	margin: 0px;
+	display: block;
+}
+
+.jqzoom img {
+	width: 436px;
+	height: 436px;
+	background: url(http://www.lanrenzhijia.com/demo/images/loading.gif) no-repeat center center;
+}
+
+.zoomdiv {
+	z-index: 100;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
+	border: 1px solid #CCCCCC;
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+
+.jqZoomPup {
+	z-index: 10;
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #aaa;
+	background: #ffffff;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	filter: alpha(Opacity=50);
+}
+
+/*图片小图预览列表*/
+.spec-preview {
+	width: 436px;
+	height: 436px;
+	border: 1px solid #A9A9A8;
+}
+
+.items {
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.items ul {
+	height: 80px;
+	width: 436px;
+}
+
+.items ul li {
+	float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.items ul li img {
+	width: 61px;
+	height: 61px;
+	margin: 0 2px 0 2px;
+}
+
+.items ul li img:hover {
+	border: 2px solid #000;
+	margin: 0;
+}

@@ -1,0 +1,262 @@
+.main{
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 1200px;
+	overflow: hidden;
+	z-index: 1;
+}
+.small_ul{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+	padding-left: 15px;
+	width: 100%;
+	height: 21px;
+}
+.small_ul li{
+	float: left;
+	margin-right: 8px;
+}
+.small_ul a{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #666666;
+}
+.bnner{
+	margin-top: 15px;
+}
+.my_h{
+	margin-top: 15px;
+	width: 100%;
+	text-align: left;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.my_h span{
+	height: 34px;
+    line-height: 34px;
+    padding: 7px 25px;
+    background: #005BAA;
+}
+.ShoppingList{
+	margin-top: 10px;
+	border: solid 1px #BBB4B4;
+    padding: 8px 0 25px 8px;
+}
+.font_form{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.font_form1{
+	width: 330px;
+    height: 31px;
+    line-height: 31px;
+    float: left;
+    background: url(../images/cc_formOrder.jpg) no-repeat;
+}
+.font_form1_input1{
+	width: 240px;
+    height: 31px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #bfbdb8;
+    padding:0 5px;
+    float: left;
+    border: none;
+    font-family: "宋体";
+}
+.font_form1_input2{
+	width: 76px;
+    height: 31px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+.font_form2{
+	margin-left: 35px;
+	float: left;
+	height: 31px;
+    line-height: 31px;
+}
+.font_form2_fam{
+	float: left;
+	font-size: 14px;
+    color: #2a2a21;
+    font-family: "微软雅黑";
+}
+.date_input{
+	width: 155px;
+    height: 25px;
+    line-height: 25px;
+    border: solid 1px #B8B8B8;
+    padding: 0 5px;
+    color: #2a2a21;
+    float: left;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+.select_sub{
+	cursor: pointer;
+	border: none;
+	float: right;
+	margin-left: 25px;
+	width: 73px;
+    height: 29px;
+    background: url(../images/butccQuery.jpg) no-repeat;
+}
+.order_list{
+	margin-top: 20px;
+	height: 32px;
+    line-height: 32px;
+    clear:both;
+}
+.order_list li{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	float: left;
+    background-color: #999;
+    border: solid 1px #ccc;
+}
+.order_list_1{
+	width: 300px;
+}
+.order_list_2{
+	width: 155px;
+}
+.order_list_3{
+	width: 170px;
+}
+.order_list_4{
+	width: 150px;
+}
+.order_list_5{
+	width: 195px;
+}
+.order_list_6{
+	width: 200px;
+}
+.cartTable tr{
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+.cartTable td{
+	border: solid 1px #BBB4B4;;
+}
+.cc_xxclinchUlas{ 
+	width:301px;
+}
+.cc_xxclinchUlbs{ 
+	width:156px;
+}
+.cc_xxclinchUlcs{ 
+	width:171px;
+}
+.cc_xxclinchUlds{
+	 width:151px;
+}
+.cc_xxclinchUles{ 
+	width:196px
+;}
+.cc_xxclinchUlfs{ 
+	width:201px;
+}
+.coreBble_Fitd{ 
+	background-color:#DEDFDF;
+	 height:35px; 
+	 line-height:35px;
+}
+.coreBble_Fitd_A{ 
+	height:27px; 
+	line-height:27px; 
+	background-color:#005BAC; 
+	padding:0 10px; 
+	margin-top:5px;
+}
+.Aimg90{ 
+	width:90px; 
+	height:90px;
+}
+.descriPtion_span{
+	display: block;
+	width: 160px;
+    max-height: 67px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+/*分页*/
+.Paging{
+	margin: 40px 20px 30px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 40px;
+}
+.Paging_form{
+	float:right;
+}
+.Paging_form label{
+	float: left;
+    color: #666;
+}
+.Paging_form .text_Input{
+	float: left;
+    border: solid 1px #eee;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 5px;
+    color: #666;
+}
+.Paging_form .sub_input{
+	float: left;
+    border: solid 1px #eee;
+    text-align: center;
+    background-color: #F4F4F4;
+    height: 37px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    width: 45px;
+    color: #666;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.Paging_div{
+	float: right;
+}
+.Paging_div a{
+	float: left;
+    color: #666;
+    border: solid 1px #CECECE;
+    margin-right: 5px;
+    padding:0 13px;
+    background-color: #F4F4F4;
+    text-decoration: none;
+}
+.Paging_div .pagingA{
+	color: #0066CC;
+    background: none;
+}
+.Paging_div .pagingFirst{
+	border: none;
+    color: #0066CC;
+    background: none;
+}
+.Paging_div span{
+	float: left;
+    margin: 0 15px;
+}
+/*返回顶部*/
+.backgTop{
+	display: block;
+    background: url(../images/result-top-btn.png) no-repeat;
+    width: 70px;
+    height: 65px;
+    position: fixed;
+    right: 50px;
+    bottom: 180px;
+    cursor: pointer;
+    z-index: 15;
+}
